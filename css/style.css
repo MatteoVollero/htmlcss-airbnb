@@ -3,7 +3,8 @@
   padding: 0;
   margin: 0;
 }
-
+/* sposto il nome della vitta al centro ed aggiungo colore
+bianco con le ombre */
 h2{
   color: white;
   text-shadow: 2px 2px 10px black;
@@ -13,6 +14,7 @@ h2{
   transform: translate(-50% -50%);
 }
 
+/* setto tutte le caratteristiche del box */
 .blocco{
   position: relative;
   box-sizing: border-box;
@@ -22,6 +24,9 @@ h2{
   height: 75vh;
 }
 
+
+/*ad ogni classe con il nome della citta viene aggiunta una foto
+relativa */
 .napoli{
   background-image: url(../img/napoli.jpg);
   background-repeat: no-repeat;
