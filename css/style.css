@@ -27,7 +27,22 @@ h2{
 
 /*ad ogni classe con il nome della citta viene aggiunta una foto
 relativa */
+.layover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* .layover:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 50px solid white;
+} */
+
 .napoli{
+  position: relative;
   background-image: url(../img/napoli.jpg);
   background-repeat: no-repeat;
   background-size: cover;
